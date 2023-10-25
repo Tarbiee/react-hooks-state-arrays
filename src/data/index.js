@@ -3,8 +3,9 @@ const spicyFoods = [
   { id: 2, name: "Mapo Tofu", cuisine: "Sichuan", heatLevel: 6 },
 ];
 
-let nextId = 3;
+let nextId = 3;//this variable will be used to assign unique ids to newly spicy food
 
+//array contains new spicy food that will be added to the list
 const newSpicyFoods = [
   { name: "Green Curry", cuisine: "Thai", heatLevel: 9 },
   { name: "Enchiladas", cuisine: "Mexican", heatLevel: 2 },
